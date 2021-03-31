@@ -1,35 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+  <body>
+    <img class="pattern-top" src="images/bg-pattern-top.svg" alt="up cercle" />
+    <img
+      class="pattern-bottom"
+      src="images/bg-pattern-bottom.svg"
+      alt="down circle"
+    />
+    <div class="container">
+      <div class="box">
+        <div class="box__top">
+          <img
+            class="box__top--motif"
+            src="images/bg-pattern-card.svg"
+            alt="motif"
+          />
+          <div class="box__top--content">
+            <img
+              class="box__top--photo"
+              src="images/image-victor.jpg"
+              alt="photo victor"
+            />
+            <div class="box__top--name">
+              Victor Crest <span class="age">&nbsp 26</span>
+            </div>
+            <div class="box__top--city">London</div>
+          </div>
+        </div>
+        <div class="box__bottom">
+          <div>
+            80K <br />
+            <span class="number-of">Followers</span>
+          </div>
+          <div>
+            803K <br />
+            <span class="number-of">Likes</span>
+          </div>
+          <div>
+            1.4K <br />
+            <span class="number-of">Photos</span>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
