@@ -54,6 +54,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 2rem 8rem rgba(0, 0, 0, 0.2);
 }
 
 .box__top {
